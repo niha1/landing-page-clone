@@ -1,0 +1,91 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.top-navigation {
+    background-color: #fff;
+}
+
+.top-navigation >.content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-left: 6em;
+}
+
+.links {
+    float: right;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 16px;
+    color: #838994;
+    margin-top: 25px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.links >li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.top-navigation .links >.active {
+    color: #4c5058;
+    font-weight: 500;
+}
+
+.links >li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
+.content1 {
+    background-image: url('images/first-background copy.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
+}
+
+#container {
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+#container h1, h3 {
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 0.007em;
+    
+}
+
+#container h1 {
+    display: block;
+    margin-top: 3.5em;
+    font-size: 3.6rem;
+}
+
+#container h3 {
+    margin-top: -1em;
+    font-size: 1.75rem;
+    
+}
+
+button {
+    color: white;
+    text-shadow: none;
+    margin-top: 0.5em;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 2rem;
+    background-color: coral;
+    font-size: 16px;
+}
