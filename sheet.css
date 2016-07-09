@@ -2,31 +2,33 @@ html {
     box-sizing: border-box;
 }
 
-*, *:before, *:after {
-    box-sizing: inherit;
-}
-
 .top-navigation {
     background-color: #fff;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    z-index: 9999;
+
 }
 
 .top-navigation >.content {
-    width: 970px;
-    height: 70px;
     margin: 0 auto;
+    width: 46rem;
+    height: 4.375rem;
 }
 
-.logo {
-    margin-left: 6em;
+.content > .logo {
+    margin-top: 1em;
 }
 
 .links {
     float: right;
     font-family: 'Roboto' , sans-serif;
-    font-size: 16px;
+    font-size: 1.04rem;
     color: #838994;
-    margin-top: 25px;
+    margin-top: 1.7rem;
     -webkit-font-smoothing: antialiased;
+    
 }
 
 .links >li {
@@ -88,4 +90,80 @@ button {
     padding: 1rem 2rem;
     background-color: coral;
     font-size: 16px;
+}
+
+.content2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content2 >.logo {
+    margin-right: 4em;
+} 
+
+.content2 h2 {
+    font-size: 3em;
+    font-weight: 100;
+    margin-top: 3em;
+    
+}
+
+#box > li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 1.5em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    font-size: 1.75em;
+}
+
+.social {
+    margin-top: 6em;
+    margin-bottom: 1em;
+    padding-bottom: 9.375rem;
+    padding-top: 1em;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+.social p {
+    margin: 0.3em 0 2em 1em;
+}
+
+.social .icons > li:hover {
+    cursor: pointer;
+}
+
+.social .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 0.25rem 5px;
+    border: 1px solid #eaebec;
+    
+}
+
+.social .twitter {
+    color: #55acee;
+}
+
+.social .facebook {
+    color: #4c66a4;
+}
+
+.social .instagram {
+    color: #3f729b;
+}
+
+.fa {
+    text-align: center;
+}
+
+#footer {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+    padding-top: 1em;
+    margin-right: -3em;
 }
