@@ -47,7 +47,7 @@ html {
 }
 
 .content1 {
-    background-image: url('images/first-background copy.jpg');
+    background: url('../img/first-background.jpg');
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -81,6 +81,10 @@ html {
     
 }
 
+.content2 .logo {
+    padding-left: 1em;
+}
+
 button {
     color: white;
     text-shadow: none;
@@ -97,10 +101,6 @@ button {
     font-family: 'Roboto', sans-serif;
 }
 
-.content2 >.logo {
-    margin-right: 4em;
-} 
-
 .content2 h2 {
     font-size: 3em;
     font-weight: 100;
@@ -108,14 +108,19 @@ button {
     
 }
 
-#box > li {
-    list-style: none;
-    display: inline-block;
-    margin-top: 1.5em;
-    margin-right: 1em;
-    margin-bottom: 1em;
-    font-size: 1.75em;
+.content .cases > li {
+    width: 33.3333333%;
+    float: left;
+    margin-right: auto;
+    margin-left: auto;
 }
+
+.content2 .cases > h3 {
+    font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
+}
+
 
 .social {
     margin-top: 6em;
